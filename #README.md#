@@ -1,0 +1,13 @@
+# JStar-is-Awesome
+==================
+an Open Frameworks sandbox project
+
+
+## Environment Variables:
+Set these in .profile, .bashrc, or other environment-setting script
+OF_ROOT_VAR=$HOME/Projects/of_v0.9.3_osx_release
+OF_PROJ_ROOT=$HOME/OF_Sandbox
+
+## Files
++ Makefile: 
++ config.make: contains project-specific settings, flags, and directives
