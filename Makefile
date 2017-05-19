@@ -5,7 +5,7 @@ ifneq ($(wildcard config.make),)
 endif
 
 # make sure the the OF_ROOT location is defined
-OF_ROOT = $(realpath /Users/stranger/Projects/of_v0.9.3_osx_release)
+OF_ROOT = $(realpath $HOME/Projects/of_v0.9.3_osx_release)
 
 # call the main OF projects makefile!
 include $(OF_ROOT)/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk
